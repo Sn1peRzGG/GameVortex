@@ -1,0 +1,174 @@
+{
+	"games": [
+		{
+			"title": "The Witcher 3: Wild Hunt",
+			"genres": ["RPG", "Adventure"],
+			"platforms": ["PS5", "PS4", "Xbox One", "Xbox Series", "PC"],
+			"releaseDate": "2015-05-18",
+			"price": 9.99,
+			"isFree": false,
+			"buyLink": "https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/?l=english",
+			"imgSrc": "The Witcher 3 Wild Hunt"
+		},
+		{
+			"title": "Red Dead Redemption 2",
+			"genres": ["Action", "Adventure"],
+			"platforms": ["PS4", "PC", "Xbox One"],
+			"releaseDate": "2018-10-26",
+			"price": 19.79,
+			"isFree": false,
+			"buyLink": "https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/?l=english",
+			"imgSrc": "Red Dead Redemption 2"
+		},
+		{
+			"title": "Cyberpunk 2077",
+			"genres": ["Action", "RPG"],
+			"platforms": ["PS5", "PS4", "Xbox One", "Xbox Series", "PC"],
+			"releaseDate": "2020-12-10",
+			"price": 29.99,
+			"isFree": false,
+			"buyLink": "https://store.steampowered.com/app/1091500/Cyberpunk_2077/?l=english",
+			"imgSrc": "Cyberpunk 2077"
+		},
+		{
+			"title": "Assassin's Creed Valhalla",
+			"genres": ["Action", "Adventure", "RPG"],
+			"platforms": ["PS5", "PS4", "Xbox One", "Xbox Series", "PC"],
+			"releaseDate": "2020-11-10",
+			"price": 14.99,
+			"isFree": false,
+			"buyLink": "https://store.steampowered.com/app/2208920/Assassins_Creed_Valhalla/?l=english",
+			"imgSrc": "Assassin's Creed Valhalla"
+		},
+		{
+			"title": "Forza Horizon 5",
+			"genres": ["Action", "Adventure", "Racing", "Simulation", "Sports"],
+			"platforms": ["Xbox One", "Xbox Series", "PC"],
+			"releaseDate": "2021-11-09",
+			"price": 29.99,
+			"isFree": false,
+			"buyLink": "https://store.steampowered.com/app/1551360/Forza_Horizon_5/?l=english",
+			"imgSrc": "Forza Horizon 5"
+		},
+		{
+			"title": "God of War",
+			"genres": ["Action", "Adventure"],
+			"platforms": ["PS5", "PS4"],
+			"releaseDate": "2018-04-20",
+			"price": 24.99,
+			"isFree": false,
+			"buyLink": "https://store.steampowered.com/app/1593500/God_of_War/?l=english",
+			"imgSrc": "God of War"
+		},
+		{
+			"title": "Grand Theft Auto V",
+			"genres": ["Action", "Adventure"],
+			"platforms": ["PS5", "PS4", "Xbox One", "Xbox Series", "PC"],
+			"releaseDate": "2013-09-17",
+			"price": 14.99,
+			"isFree": false,
+			"buyLink": "https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/?l=english",
+			"imgSrc": "Grand Theft Auto V"
+		},
+		{
+			"title": "Euro Truck Simulator 2",
+			"genres": ["Simulation"],
+			"platforms": ["PC"],
+			"releaseDate": "2012-10-18",
+			"price": 4.99,
+			"isFree": false,
+			"buyLink": "https://store.steampowered.com/app/227300/Euro_Truck_Simulator_2/?l=english",
+			"imgSrc": "Euro Truck Simulator 2"
+		},
+		{
+			"title": "Resident Evil 4",
+			"genres": ["Survival Horror"],
+			"platforms": ["PS5", "PS4", "Xbox Series", "PC"],
+			"releaseDate": "2023-03-24",
+			"price": 29.99,
+			"isFree": false,
+			"buyLink": "https://store.steampowered.com/app/2050650/Resident_Evil_4/?l=english",
+			"imgSrc": "Resident Evil 4"
+		},
+		{
+			"title": "MudRunner",
+			"genres": ["Simulation"],
+			"platforms": ["PS4", "Xbox One", "PC"],
+			"releaseDate": "2017-10-31",
+			"price": 3.99,
+			"isFree": false,
+			"buyLink": "https://store.steampowered.com/app/675010/MudRunner/?l=english",
+			"imgSrc": "MudRunner"
+		},
+		{
+			"title": "Asphalt 9: Legends",
+			"genres": ["Racing"],
+			"platforms": ["Xbox One", "Xbox Series", "PC"],
+			"releaseDate": "2022-08-02",
+			"price": null,
+			"isFree": true,
+			"buyLink": "https://store.steampowered.com/app/1815780/Asphalt_9_Legends/?l=english",
+			"imgSrc": "Asphalt 9 Legends"
+		},
+		{
+			"title": "Counter-Strike 2",
+			"genres": ["Action"],
+			"platforms": ["PC"],
+			"releaseDate": "2023-09-27",
+			"price": null,
+			"isFree": true,
+			"buyLink": "https://store.steampowered.com/app/730/CounterStrike_2/?l=english",
+			"imgSrc": "Counter Strike 2"
+		},
+		{
+			"title": "Cities: Skylines II",
+			"genres": ["Action"],
+			"platforms": ["PS4", "Xbox One", "PC"],
+			"releaseDate": "2023-10-24",
+			"price": 44.99,
+			"isFree": false,
+			"buyLink": "https://store.steampowered.com/app/949230/Cities_Skylines_II/?l=english",
+			"imgSrc": "Cities Skylines II"
+		},
+		{
+			"title": "SnowRunner",
+			"genres": ["Adventure", "Simulation"],
+			"platforms": ["PS5", "PS4", "Xbox One", "Xbox Series", "PC"],
+			"releaseDate": "2021-05-17",
+			"price": 14.99,
+			"isFree": false,
+			"buyLink": "https://store.steampowered.com/app/1465360/SnowRunner/?l=english",
+			"imgSrc": "SnowRunner"
+		},
+		{
+			"title": "Forza Motorsport",
+			"genres": ["Action", "Adventure", "Racing", "Simulation", "Sports"],
+			"platforms": ["Xbox Series", "PC"],
+			"releaseDate": "2023-10-10",
+			"price": 55.99,
+			"isFree": false,
+			"buyLink": "https://store.steampowered.com/app/2440510/Forza_Motorsport/?l=english",
+			"imgSrc": "Forza Motorsport"
+		},
+		{
+			"title": "Forza Horizon 4",
+			"genres": ["Action", "Adventure", "Racing", "Simulation", "Sports"],
+			"platforms": ["Xbox Series", "PC"],
+			"releaseDate": "2021-03-09",
+			"price": 19.79,
+			"isFree": false,
+			"buyLink": "https://store.steampowered.com/app/1293830/Forza_Horizon_4/?l=english",
+			"imgSrc": "Forza Horizon 4"
+		},
+		{
+			"title": "American Truck Simulator",
+			"genres": ["Simulation"],
+			"platforms": ["PC"],
+			"releaseDate": "2016-02-02",
+			"price": 4.99,
+			"isFree": false,
+			"buyLink": "https://store.steampowered.com/app/270880/American_Truck_Simulator/?l=english",
+			"imgSrc": "American Truck Simulator"
+		}
+	]
+}

@@ -1,0 +1,229 @@
+html {
+	transition: all 0.3s ease-in-out;
+	scroll-behavior: smooth;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+.container {
+	width: 100%;
+}
+/* Main section */
+.main {
+	background-image: url(../img/background.jpg);
+	width: 100%;
+	padding-left: 210px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+/* Sidebar */
+.sidebar {
+	position: fixed;
+	top: 100px;
+	left: 0;
+	height: calc(100% - 100px - 10px);
+	width: 200px;
+	padding: 15px 10px;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+	transition: all 0.4s ease;
+	z-index: 1000;
+	margin: 5px;
+	border-radius: 5px;
+	background: rgba(0, 0, 0, 0.05);
+	backdrop-filter: blur(10px);
+}
+
+.menu_container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 40px;
+	overflow-y: auto;
+	height: calc(100% - 82px);
+}
+
+.menu_container::-webkit-scrollbar {
+	display: none;
+}
+
+.item {
+	list-style: none;
+}
+
+.link {
+	text-decoration: none;
+	height: 50px;
+	width: 180px;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	border-radius: 8px;
+	margin-bottom: 8px;
+	color: var(--color);
+	transition: all 0.3s ease-in-out;
+	padding-top: 12px;
+}
+
+.link:hover,
+.menu_item a.active {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.menu_item a.active {
+	font-weight: bold;
+	transition: all 0.1s ease;
+}
+
+.menu_item a.active span {
+	fill: #fff;
+	transition: all 0.1s ease;
+}
+
+.link span {
+	fill: var(--color);
+	transition: fill 0.3s ease-in-out;
+}
+
+.menu_text {
+	transition: all 0.3s ease-in-out;
+}
+
+/* Filter section */
+
+.filters {
+	padding: 10px;
+	border-radius: 10px;
+	background: rgba(0, 0, 0, 0.05);
+	backdrop-filter: blur(10px);
+	margin-top: 10px;
+}
+
+#sortByTag {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: max-content;
+	position: fixed;
+	float: right;
+	right: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	z-index: 1500;
+}
+
+#sortByTag label {
+	margin-right: 20px;
+}
+
+.menu_item select {
+	margin-top: 10px;
+	width: 100%;
+}
+
+#sortBy {
+	width: 240px;
+}
+
+/* Games list section */
+
+.games-list {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr));
+	grid-template-rows: repeat(auto-fit, minmax(min(26rem, 100%), 2fr));
+	gap: 15px;
+	position: relative;
+	top: 85px;
+	padding-bottom: 100px;
+	padding-right: 20px;
+}
+
+.game-item {
+	border-radius: 10px;
+	padding: 15px;
+	margin: 10px;
+	background-image: linear-gradient(135deg, #021f35 0%, #530340 100%);
+	height: 450px;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+}
+
+.game-item:hover {
+	transform: scale(1.1);
+	z-index: 1100;
+}
+
+.game-item h2 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.gameImg {
+	width: 100%;
+	height: auto;
+	display: block;
+	border-radius: 10px;
+}
+
+.game-item p {
+	margin: 5px 0;
+}
+
+.game-item hr {
+	border: 0;
+	height: 1px;
+	background-color: #ddd;
+	margin: 10px 0;
+}
+
+.gameInfo {
+	height: 110px;
+	padding-top: 10px;
+}
+
+.bottom {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 15px;
+}
+
+.buyBtn {
+	width: 115px;
+	padding: 8px;
+	height: 50px;
+	border: none;
+	border-radius: 40px;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+.buyBtn.steam {
+	background: #152f57;
+}
+
+.buyBtn.steam:hover {
+	background: #0c1b32;
+}
+
+.platform {
+	width: 120px;
+	margin-top: 1px;
+}
+
+select,
+option {
+	background: #222;
+	border-radius: 10px;
+	border: none;
+	color: var(--color);
+	padding: 5px;
+}
+
+select {
+	width: 80%;
+	height: 36px;
+	font-size: 16px;
+}
